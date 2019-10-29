@@ -16,8 +16,6 @@ class School
     end
 
     def sort
-        @roster = @roster.transform_values { |value|
-            value.sort
-        }
+        @roster = @roster.transform_values { |value| value.sort}
     end
 end
